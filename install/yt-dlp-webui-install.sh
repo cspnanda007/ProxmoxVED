@@ -32,6 +32,11 @@ msg_ok "Installed ${APPLICATION}"
 msg_info "Setting up ${APPLICATION}"
 mkdir /downloads
 RPC_PASSWORD=$(openssl rand -base64 16)
+{
+    echo "yt-dlp-webui-Credentials"
+    echo "Username: admin"
+    echo "Password: ${RPC_PASSWORD}"
+} >> ~/crafty-controller.creds
 
 cat <<EOF > /opt/yt-dlp-webui/config.conf
 # Host where server will listen at (default: "0.0.0.0")
