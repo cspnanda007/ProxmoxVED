@@ -8,6 +8,86 @@
 <h3 align="center">All notable changes to this project will be documented in this file.</h3>
 
 
+## 2025-05-09
+
+### 🆕 New Scripts
+
+  - alpine-transmission ([#4277](https://github.com/community-scripts/ProxmoxVE/pull/4277))
+- streamlink-webui ([#4262](https://github.com/community-scripts/ProxmoxVE/pull/4262))
+- Fumadocs ([#4263](https://github.com/community-scripts/ProxmoxVE/pull/4263))
+- alpine-rclone ([#4265](https://github.com/community-scripts/ProxmoxVE/pull/4265))
+- alpine-tinyauth ([#4264](https://github.com/community-scripts/ProxmoxVE/pull/4264))
+- Alpine-Komodo [@MickLesk](https://github.com/MickLesk) ([#4234](https://github.com/community-scripts/ProxmoxVE/pull/4234))
+- Re-Add: ActualBudget [@MickLesk](https://github.com/MickLesk) ([#4228](https://github.com/community-scripts/ProxmoxVE/pull/4228))
+
+### 🚀 Updated Scripts
+
+  - Alpine scripts: Set minimum disk space to 0.5GB [@tremor021](https://github.com/tremor021) ([#4288](https://github.com/community-scripts/ProxmoxVE/pull/4288))
+- Refactor: Ollama & Adding to Website [@MickLesk](https://github.com/MickLesk) ([#4147](https://github.com/community-scripts/ProxmoxVE/pull/4147))
+- Refactor: Matterbridge [@MickLesk](https://github.com/MickLesk) ([#4148](https://github.com/community-scripts/ProxmoxVE/pull/4148))
+- Vaultwarden: Enable HTTPS by default [@tremor021](https://github.com/tremor021) ([#4197](https://github.com/community-scripts/ProxmoxVE/pull/4197))
+
+  - #### 🐞 Bug Fixes
+
+    - SearXNG: fix to resolve yaml dependency error [@Biendeo](https://github.com/Biendeo) ([#4322](https://github.com/community-scripts/ProxmoxVE/pull/4322))
+    - Bugfix: Mikrotik & Pimox HAOS VM (NEXTID) [@MickLesk](https://github.com/MickLesk) ([#4313](https://github.com/community-scripts/ProxmoxVE/pull/4313))
+    - SuwayomiServer: Bump Java to v21, code formating [@tremor021](https://github.com/tremor021) ([#3987](https://github.com/community-scripts/ProxmoxVE/pull/3987))
+    - Apache Guacamole: Fix Version Grepping [@michelroegl-brunner](https://github.com/michelroegl-brunner) ([#4229](https://github.com/community-scripts/ProxmoxVE/pull/4229))
+    - Vaultwarden: Fix access URL [@tremor021](https://github.com/tremor021) ([#4199](https://github.com/community-scripts/ProxmoxVE/pull/4199))
+    - Docker VM: Fix variable doublequoting [@tremor021](https://github.com/tremor021) ([#4245](https://github.com/community-scripts/ProxmoxVE/pull/4245))
+    - Alpine-Vaultwarden: Fix sed and better cert generation [@tremor021](https://github.com/tremor021) ([#4232](https://github.com/community-scripts/ProxmoxVE/pull/4232))
+    - Readeck: Fix release crawling [@tremor021](https://github.com/tremor021) ([#4172](https://github.com/community-scripts/ProxmoxVE/pull/4172))
+    - clean-lxc.sh: cancel/no whiptail support [@ManuelDrescher](https://github.com/ManuelDrescher) ([#4102](https://github.com/community-scripts/ProxmoxVE/pull/4102))
+    - NetBox: Fix typo in sed command, preventing install [@tremor021](https://github.com/tremor021) ([#4179](https://github.com/community-scripts/ProxmoxVE/pull/4179))
+    - Install rsync in ct/commafeed.sh [@mzhaodev](https://github.com/mzhaodev) ([#4086](https://github.com/community-scripts/ProxmoxVE/pull/4086))
+
+  - #### ✨ New Features
+
+    - Feature: get correct next VMID [@MickLesk](https://github.com/MickLesk) ([#4292](https://github.com/community-scripts/ProxmoxVE/pull/4292))
+    - Docker-VM: Add Disk Size choice [@michelroegl-brunner](https://github.com/michelroegl-brunner) ([#4241](https://github.com/community-scripts/ProxmoxVE/pull/4241))
+    - homepage: Add build time var [@burgerga](https://github.com/burgerga) ([#4167](https://github.com/community-scripts/ProxmoxVE/pull/4167))
+
+  - #### 🔧 Refactor
+
+    - Refactor: Komodo update logic [@MickLesk](https://github.com/MickLesk) ([#4231](https://github.com/community-scripts/ProxmoxVE/pull/4231))
+    - Refactor: sabnzbd [@MickLesk](https://github.com/MickLesk) ([#4127](https://github.com/community-scripts/ProxmoxVE/pull/4127))
+
+### 🧰 Maintenance
+
+  - #### 🐞 Bug Fixes
+
+    - whiptail menu - cancel button now exists the advanced menu [@MickLesk](https://github.com/MickLesk) ([#4259](https://github.com/community-scripts/ProxmoxVE/pull/4259))
+
+  - #### ✨ New Features
+
+    - core: add setup_uv() function to automate installation and updating of uv [@MickLesk](https://github.com/MickLesk) ([#4129](https://github.com/community-scripts/ProxmoxVE/pull/4129))
+    - core: persist /usr/local/bin via profile.d helper [@MickLesk](https://github.com/MickLesk) ([#4133](https://github.com/community-scripts/ProxmoxVE/pull/4133))
+
+  - #### 💾 Core
+
+    - build.func Change the menu for Bridge Selection [@michelroegl-brunner](https://github.com/michelroegl-brunner) ([#4326](https://github.com/community-scripts/ProxmoxVE/pull/4326))
+    - tools.func: better function handling + gs as new helper [@MickLesk](https://github.com/MickLesk) ([#4238](https://github.com/community-scripts/ProxmoxVE/pull/4238))
+
+### 🌐 Website
+
+  - FAQ: Explanation "updatable" [@tremor021](https://github.com/tremor021) ([#4300](https://github.com/community-scripts/ProxmoxVE/pull/4300))
+- Code Server: Update misleading name, description and icon. [@ArmainAP](https://github.com/ArmainAP) ([#4211](https://github.com/community-scripts/ProxmoxVE/pull/4211))
+
+  - #### 🐞 Bug Fixes
+
+    - Changed the random script button to be the same as all the other buttons [@BramSuurdje](https://github.com/BramSuurdje) ([#4183](https://github.com/community-scripts/ProxmoxVE/pull/4183))
+
+  - #### ✨ New Features
+
+    - Feat: Random Script picker for Website [@michelroegl-brunner](https://github.com/michelroegl-brunner) ([#4090](https://github.com/community-scripts/ProxmoxVE/pull/4090))
+
+  - #### 📝 Script Information
+
+    - OpenWebUI: Update docs link [@tremor021](https://github.com/tremor021) ([#4298](https://github.com/community-scripts/ProxmoxVE/pull/4298))
+    - Tailscale: Clarify tailscale script instruction on website [@tremor021](https://github.com/tremor021) ([#3952](https://github.com/community-scripts/ProxmoxVE/pull/3952))
+    - SFTPGo: Switch updatable to true on website [@tremor021](https://github.com/tremor021) ([#4186](https://github.com/community-scripts/ProxmoxVE/pull/4186))
+    - Habitica: correct config path [@DrDonoso](https://github.com/DrDonoso) ([#4181](https://github.com/community-scripts/ProxmoxVE/pull/4181))
+
 ## 2025-03-24
 
 ### 🆕 New Scripts
